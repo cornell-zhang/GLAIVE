@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /benchmark/bin
+./streamcluster 1 1 1 1 1 1 none output.txt 1
+/sbin/m5 writefile output.txt
+/sbin/m5 exit
+

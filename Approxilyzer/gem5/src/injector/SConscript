@@ -1,0 +1,6 @@
+Import('*')
+
+SimObject('Injector.py')
+Source('injector.cc')
+
+DebugFlag('Inj')

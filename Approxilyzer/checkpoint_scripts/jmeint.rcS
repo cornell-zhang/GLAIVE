@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /benchmark/bin
+./jmeint /benchmark/data/jmeint_10.data output.txt
+/sbin/m5 writefile output.txt
+/sbin/m5 exit
+

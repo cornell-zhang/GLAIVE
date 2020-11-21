@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /benchmark/bin
+./sobel /benchmark/data/bird_min.pgm output.pgm
+/sbin/m5 writefile output.pgm
+/sbin/m5 exit
+

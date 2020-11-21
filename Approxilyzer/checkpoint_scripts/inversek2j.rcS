@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /benchmark/bin
+./inversek2j /benchmark/data/theta_10.data output.txt
+/sbin/m5 writefile output.txt
+/sbin/m5 exit
+
